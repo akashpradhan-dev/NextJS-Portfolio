@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className='section sec2 about' id='about'>
+      <section className='section sec2 about active' id='about'>
         <div className='main-title'>
           <h2>
             About <span>me</span>
@@ -14,13 +14,10 @@ const About = () => {
           <div className='left-about'>
             <h4>Information About me</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              labore nihil obcaecati consequatur. Debitis error doloremque, vero
-              eos vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La
-              musica delectus dolore fugiat exercitationem a, ipsum quidem quo
-              enim natus accusamus labore dolores nam. Unde. Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Harum non necessitatibus
-              deleniti eum soluta.
+              i am a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2019. The web development community is a big part of my life. I love to write code, managing online programming groups and blogs or attending a conference, I find keeping involved helps me stay up to date.
+            </p>
+            <p>
+              Fast-forward to today, and I’ve had the privilege of working at a start-up. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
             </p>
             <div className='btn-con'>
               <a href='#' className='main-btn'>
@@ -34,7 +31,7 @@ const About = () => {
           <div className='right-about'>
             <div className='about-item'>
               <div className='abt-text'>
-                <p className='large-text'>650+</p>
+                <p className='large-text'>10+</p>
                 <p className='small-text'>
                   Projects <br /> Completed
                 </p>
@@ -42,7 +39,7 @@ const About = () => {
             </div>
             <div className='about-item'>
               <div className='abt-text'>
-                <p className='large-text'>10+</p>
+                <p className='large-text'>1.5+</p>
                 <p className='small-text'>
                   Years of <br /> experience
                 </p>
@@ -50,7 +47,7 @@ const About = () => {
             </div>
             <div className='about-item'>
               <div className='abt-text'>
-                <p className='large-text'>300+</p>
+                <p className='large-text'>3+</p>
                 <p className='small-text'>
                   Happy <br /> Clients
                 </p>
@@ -58,7 +55,7 @@ const About = () => {
             </div>
             <div className='about-item'>
               <div className='abt-text'>
-                <p className='large-text'>400+</p>
+                <p className='large-text'>4+</p>
                 <p className='small-text'>
                   Customer <br /> reviews
                 </p>
@@ -108,14 +105,14 @@ const About = () => {
             <div className='progress-bar'>
               <p className='prog-title'>NodeJS</p>
               <div className='progress-con'>
-                <p className='prog-text'>87%</p>
+                <p className='prog-text'>70%</p>
                 <div className='progress'>
                   <span className='node'></span>
                 </div>
               </div>
             </div>
             <div className='progress-bar'>
-              <p className='prog-title'>Python</p>
+              <p className='prog-title'>Express</p>
               <div className='progress-con'>
                 <p className='prog-text'>70%</p>
                 <div className='progress'>
@@ -125,86 +122,34 @@ const About = () => {
             </div>
           </div>
         </div>
+
         <h4 className='stat-title'>My Timeline</h4>
         <div className='timeline'>
           <div className='timeline-item'>
             <div className='tl-icon'>
               <i className='fas fa-briefcase'></i>
             </div>
-            <p className='tl-duration'>2010 - present</p>
+            <p className='tl-duration'>2021 - present</p>
             <h5>
-              Web Developer<span> - Vircrosoft</span>
+              Web Developer<span> - Aashdit Technology</span>
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
+              Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
             </p>
           </div>
           <div className='timeline-item'>
             <div className='tl-icon'>
               <i className='fas fa-briefcase'></i>
             </div>
-            <p className='tl-duration'>2008 - 2011</p>
+            <p className='tl-duration'>2020 - 2021</p>
             <h5>
-              Software Engineer<span> - Boogle, Inc.</span>
+              Front-End Developer (Intern)<span> - Ats Global Techsoft</span>
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
+              Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
             </p>
           </div>
-          <div className='timeline-item'>
-            <div className='tl-icon'>
-              <i className='fas fa-briefcase'></i>
-            </div>
-            <p className='tl-duration'>2016 - 2017</p>
-            <h5>
-              C++ Programmer<span> - Slime Tech</span>
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
-          <div className='timeline-item'>
-            <div className='tl-icon'>
-              <i className='fas fa-briefcase'></i>
-            </div>
-            <p className='tl-duration'>2009 - 2013</p>
-            <h5>
-              Business Degree<span> - Sussex University</span>
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
-          <div className='timeline-item'>
-            <div className='tl-icon'>
-              <i className='fas fa-briefcase'></i>
-            </div>
-            <p className='tl-duration'>2013 - 2016</p>
-            <h5>
-              Computer Science Degree<span> - Brookes University</span>
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
-          <div className='timeline-item'>
-            <div className='tl-icon'>
-              <i className='fas fa-briefcase'></i>
-            </div>
-            <p className='tl-duration'>2017 - present</p>
-            <h5>
-              3d Animation<span> - Brighton University</span>
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
+
         </div>
       </section>
     </>

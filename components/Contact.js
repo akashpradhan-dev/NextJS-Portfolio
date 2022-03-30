@@ -1,6 +1,28 @@
-import React from "react";
-
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 const Contact = () => {
+  const form = useRef();
+  const message = useRef(null);
+
+
+  const sendMessage = (e) => {
+    e.preventDefault();
+
+    message.current.innerHTML = 'Sending...';
+
+    emailjs.sendForm('service_71cw1qg', "template_qgwqxz7", e.target, 'user_ijb1Aho83MCDL5Yslh4ng')
+      .then((result) => {
+        message.current.innerHTML = 'Send Message'
+        toast.success('Message sent successfully!')
+        console.log(result);
+      }, (error) => {
+        toast.error('Message not sent!')
+      });
+
+    form.current.reset();
+  }
+
   return (
     <>
       <section className='section sec5 contact' id='contact'>
@@ -13,97 +35,49 @@ const Contact = () => {
           </div>
           <div className='contact-content-con'>
             <div className='left-contact'>
-              <h4>Contact me here</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                laborum numquam? Quam excepturi perspiciatis quas quasi.
+                I’m currently looking for a new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
               </p>
-              <div className='contact-info'>
-                <div className='contact-item'>
-                  <div className='icon'>
-                    <i className='fas fa-map-marker-alt'></i>
-                    <span>Location</span>
-                  </div>
-                  <p>: London, united Kingdom</p>
-                </div>
-                <div className='contact-item'>
-                  <div className='icon'>
-                    <i className='fas fa-envelope'></i>
-                    <span>Email</span>
-                  </div>
-                  <p>
-                    <span>: maclinzuniversal@gmail.com</span>
-                  </p>
-                </div>
-                <div className='contact-item'>
-                  <div className='icon'>
-                    <i className='fas fa-user-graduate'></i>
-                    <span>Education</span>
-                  </div>
-                  <p>
-                    <span>: Sussex University, East Sussex</span>
-                  </p>
-                </div>
-                <div className='contact-item'>
-                  <div className='icon'>
-                    <i className='fas fa-user-graduate'></i>
-                    <span>Mobile Number</span>
-                  </div>
-                  <p>
-                    <span>: 07522670617</span>
-                  </p>
-                </div>
-                <div className='contact-item'>
-                  <div className='icon'>
-                    <i className='fas fa-globe-africa'></i>
-                    <span>Languages</span>
-                  </div>
-                  <p>
-                    <span>: Afrikaans, English, Spanish</span>
-                  </p>
-                </div>
-              </div>
+
               <div className='contact-icons'>
                 <div className='contact-icon'>
-                  <a href='www.facebook.com' target='_blank'>
-                    <i className='fab fa-facebook-f'></i>
+                  <a href='https://www.linkedin.com/in/akash-pradhan/' target='_blank'>
+                    <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href='#' target='_blank'>
+                  <a href='https://twitter.com/EnterAkash' target='_blank'>
                     <i className='fab fa-twitter'></i>
                   </a>
-                  <a href='#' target='_blank'>
+                  <a href='https://github.com/Akashpradhan-Git' target='_blank'>
                     <i className='fab fa-github'></i>
                   </a>
-                  <a href='#' target='_blank'>
+                  <a href='https://www.youtube.com/channel/UCEA2iXeH-XnjyVsLcUpYkdw' target='_blank'>
                     <i className='fab fa-youtube'></i>
                   </a>
                 </div>
               </div>
             </div>
             <div className='right-contact'>
-              <form action='' className='contact-form'>
+              <form ref={form} onSubmit={sendMessage} className='contact-form'>
                 <div className='input-control i-c-2'>
-                  <input type='text' required placeholder='YOUR NAME' />
-                  <input type='email' required placeholder='YOUR EMAIL' />
+                  <input name="name" type='text' required placeholder='YOUR NAME' />
+                  <input name="user_email" type='email' required placeholder='YOUR EMAIL' />
                 </div>
-                <div className='input-control'>
-                  <input type='text' required placeholder='ENTER SUBJECT' />
-                </div>
+
                 <div className='input-control'>
                   <textarea
-                    name=''
-                    id=''
+                    name='user_msg'
+
                     cols='15'
                     rows='8'
                     placeholder='Message Here...'></textarea>
                 </div>
                 <div className='submit-btn'>
-                  <a href='#' className='main-btn'>
-                    <span className='btn-text'>Download CV</span>
+                  <button type="submit" className='main-btn'>
+                    <span id="sendbtn" ref={message} className='btn-text'>Send Message</span>
                     <span className='btn-icon'>
-                      <i className='fas fa-download'></i>
+                      <i className="fas fa-paper-plane"></i>
                     </span>
-                  </a>
+                  </button>
                 </div>
               </form>
             </div>

@@ -11,13 +11,11 @@ const Header = () => {
           </div>
           <div className='right-header'>
             <h1 className='name'>
-              Hi, I'm <span>Nguyễn Văn Tài.</span>A Web Developer.
+              Hi, I'm <span>Akash.</span><br />A Web Developer.
             </h1>
             <p>
               I'm a Web Developer, I love to create beautiful and functional
-              websites. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Officia, libero? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Neque blanditiis sed aut!
+              websites.
             </p>
             <div className='btn-con'>
               <a href='' className='main-btn'>
