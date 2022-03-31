@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Portfolio = () => {
   return (
     <>
@@ -17,12 +17,13 @@ const Portfolio = () => {
         <div className='portfolios'>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port1.jpg" alt=""> */}
+              <Image src="/portfolio/blog.jpg" layout="fill" alt="" />
+              {/* <img src="/portfolio/blog.jpg" alt="" /> */}
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/My-NodeJS_blogs' target="_blank" className='icon'>
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -36,12 +37,12 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port2.jpg" alt=""> */}
+              <Image src="/portfolio/blog2.png" layout="fill" alt="" />
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/News-Feed-App' target='_blank' className='icon'>
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -55,12 +56,12 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port3.jpg" alt=""> */}
+              <Image src="/portfolio/urls.jpg" layout="fill" alt="" />
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/urlShortener' target="_blank" className='icon'>
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -74,13 +75,14 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port4.jpg" alt=""> */}
+              <Image src="/portfolio/REactPage.png" layout="fill" alt="" />
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
-                  <i className='fab fa-github'></i>
+                <a href='https://react-landingpage.netlify.app/'
+                  target='_blank' className='icon'>
+                  <i class="fas fa-globe-europe"></i>
                 </a>
                 <a href='#' className='icon'>
                   <i className='fab fa-behance'></i>
@@ -93,50 +95,31 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port5.jpg" alt=""> */}
+              <Image src="/portfolio/webstu.png" layout="fill" alt="" />
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
-                  <i className='fab fa-github'></i>
+                <a href='https://webstudent.netlify.app/' target='_blank' className='icon'>
+                  <i class="fas fa-globe-europe"></i>
                 </a>
                 <a href='#' className='icon'>
                   <i className='fab fa-behance'></i>
                 </a>
                 <a href='#' className='icon'>
-                  <i className='fab fa-youtube'></i>
+                  <i class="fas fa-globe-europe"></i>
                 </a>
               </div>
             </div>
           </div>
           <div className='portfolio-item'>
             <div className='image'>
-              {/* <img src="img/port2.jpg" alt=""> */}
+              <Image src="/portfolio/bus.png" layout="fill" alt="" />
             </div>
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='#' className='icon'>
-                  <i className='fab fa-github'></i>
-                </a>
-                <a href='#' className='icon'>
-                  <i className='fab fa-behance'></i>
-                </a>
-                <a href='#' className='icon'>
-                  <i className='fab fa-youtube'></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className='portfolio-item'>
-            <div className='image'>
-              {/* <img src="img/port7.jpg" alt=""> */}
-            </div>
-            <div className='hover-items'>
-              <h3>Project Source</h3>
-              <div className='icons'>
-                <a href='#' className='icon'>
+                <a href='https://trackmybus.netlify.app/' target='_blank' className='icon'>
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>

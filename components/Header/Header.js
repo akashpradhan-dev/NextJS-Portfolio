@@ -7,7 +7,9 @@ const Header = () => {
         <div className='header-content'>
           <div className='left-header'>
             <div className='h-shape'></div>
-            <div className='image'>{/* <img src="img/hero.png" alt=""> */}</div>
+            <div className='image'>
+              <img src="/me2.png" alt="" />
+            </div>
           </div>
           <div className='right-header'>
             <h1 className='name'>

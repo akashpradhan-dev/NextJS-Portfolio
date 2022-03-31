@@ -589,7 +589,8 @@ section {
   border-radius: 15px;
 }
 
-.portfolios .portfolio-item img {
+.portfolios .portfolio-item img,
+.portfolios .portfolio-item  {  
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
