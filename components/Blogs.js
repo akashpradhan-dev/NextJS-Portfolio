@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 const Blogs = () => {
+
+
+
   return (
     <>
       <section className='section sec4 active' id='blogs'>
@@ -13,8 +16,10 @@ const Blogs = () => {
           </div>
           <div className='blogs'>
             <div className='blog'>
-              <img src="/blog/images.jpg" alt="" />
-              {/* <Image src="/blog/images.jpg" layout="fill" alt="" /> */}
+              {/* <img src="/blog/images.jpg" alt="" /> */}
+
+
+              <Image src="/blog/images.jpg" width={500} height={480} className="image" alt="" />
               <a href="https://enterakash.hashnode.dev/10-best-free-css-animation-libraries-for-the-web" className='blog-text' target='_blank'>
                 <h4>10 Best Free CSS Animation Libraries For The Web</h4>
                 <p>
@@ -23,8 +28,8 @@ const Blogs = () => {
               </a>
             </div>
             <div className='blog'>
-              <img src="/blog/vsCode.jpg" alt="" />
-              {/* <Image src="/blog/vsCode.jpg" layout="fill" alt="" /> */}
+              {/* <img src="/blog/vsCode.jpg" alt="" /> */}
+              <Image src="/blog/vsCode.jpg" width={500} height={480} alt="" />
               <a href="https://enterakash.hashnode.dev/top-vs-code-extensions-that-i-use-as-full-stack-developer" target='_blank' className='blog-text'>
                 <h4>Top VS Code extensions</h4>
                 <p>
@@ -33,8 +38,8 @@ const Blogs = () => {
               </a>
             </div>
             <div className='blog'>
-              <img src="/blog/npm.jpg" alt="" />
-              {/* <Image src="/portfolio/blog2.png" layout="fill" alt="" /> */}
+
+              <Image src="/blog/npm.jpg" width={500} height={480} alt="" />
               <a href="https://manindu.dev/list-of-useful-npm-packages-for-react-developers/" target='_blank' className='blog-text'>
                 <h4>A List of Useful npm Packages for React Developers</h4>
                 <p>
@@ -43,8 +48,8 @@ const Blogs = () => {
               </a>
             </div>
             <div className='blog'>
-              <img src="/blog/debug.png" alt="" />
-              {/* <Image src="/blog/cssfilter.jpg" layout="fill" alt="" /> */}
+              {/* <img src="/blog/debug.png" alt="" /> */}
+              <Image src="/blog/debug.png" width={500} height={480} alt="" />
               <a href="https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db" className='blog-text' target="_blank">
                 <h4>Debbuging made easy with Web Inspector</h4>
                 <p>
@@ -53,7 +58,8 @@ const Blogs = () => {
               </a>
             </div>
             <div className='blog'>
-              <img src="blog/css.png" alt="" />
+
+              <Image src="/blog/css.png" width={500} height={480} alt="" />
               <a href="https://enterakash.hashnode.dev/top-10-free-css-generators-tool" target='_blank' className='blog-text'>
                 <h4>Top 10 Free CSS Generators Tool</h4>
                 <p>
@@ -62,7 +68,8 @@ const Blogs = () => {
               </a>
             </div>
             <div className='blog'>
-              <img src="blog/website.jpg" alt="" />
+              {/* <img src="/blog/website.jpg" alt="" /> */}
+              <Image src="/blog/website.jpg" width={500} height={480} alt="" />
               <a href="https://gist.github.com/bradtraversy/61171a9b81586f5bc4c0ca1e2beb59ab" className='blog-text'>
                 <h4>Top web resources that makes your life easier</h4>
                 <p>
