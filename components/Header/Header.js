@@ -15,6 +15,7 @@ const Header = () => {
               </div>
             </div>
           </div>
+
           <div className='right-header'>
             <h1 className='name'>
               Hi, I&apos; m <span>Akash.</span><br />A Web Developer.
