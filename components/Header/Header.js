@@ -20,7 +20,7 @@ const Header = () => {
               websites.
             </p>
             <div className='btn-con'>
-              <a href='' className='main-btn'>
+              <a href='/cv.pdf' download={"Akash's Resume"} className='main-btn'>
                 <span className='btn-text'>Download CV</span>
                 <span className='btn-icon'>
                   <i className='fas fa-download'></i>

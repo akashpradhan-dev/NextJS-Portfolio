@@ -1067,7 +1067,7 @@ section {
     background-color: var(--color-grey-5);
   }
   .controlls .control {
-    margin: 1rem 0.3rem;
+    margin: 4px 0.3rem;
   }
   .about-container {
     -ms-grid-columns: (1fr);

@@ -1,9 +1,9 @@
 import React from "react";
-
+import Image from "next/image";
 const Blogs = () => {
   return (
     <>
-      <section className='section sec4 ' id='blogs'>
+      <section className='section sec4 active' id='blogs'>
         <div className='blogs-content'>
           <div className='main-title'>
             <h2>
@@ -13,64 +13,62 @@ const Blogs = () => {
           </div>
           <div className='blogs'>
             <div className='blog'>
-              {/* <img src="img/port6.jpg" alt=""> */}
-              <div className='blog-text'>
-                <h4>How to Create Your Own Website</h4>
+              <img src="/blog/images.jpg" alt="" />
+              {/* <Image src="/blog/images.jpg" layout="fill" alt="" /> */}
+              <a href="https://enterakash.hashnode.dev/10-best-free-css-animation-libraries-for-the-web" className='blog-text' target='_blank'>
+                <h4>10 Best Free CSS Animation Libraries For The Web</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  There are an awful lot of libraries that want to help you animate things on the web and make your website more attractive.
                 </p>
-              </div>
+              </a>
             </div>
             <div className='blog'>
-              {/* <img src="img/blog1.jpg" alt=""> */}
-              <div className='blog-text'>
-                <h4>How to Become an Expert in Web Design</h4>
+              <img src="/blog/vsCode.jpg" alt="" />
+              {/* <Image src="/blog/vsCode.jpg" layout="fill" alt="" /> */}
+              <a href="https://enterakash.hashnode.dev/top-vs-code-extensions-that-i-use-as-full-stack-developer" target='_blank' className='blog-text'>
+                <h4>Top VS Code extensions</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  Top VS Code extensions that I use as full-stack developer.
                 </p>
-              </div>
+              </a>
             </div>
             <div className='blog'>
-              {/* <img src="img/blog2.jpg" alt=""> */}
-              <div className='blog-text'>
-                <h4>Become a Web Designer in 10 Days</h4>
+              <img src="/blog/npm.jpg" alt="" />
+              {/* <Image src="/portfolio/blog2.png" layout="fill" alt="" /> */}
+              <a href="https://manindu.dev/list-of-useful-npm-packages-for-react-developers/" target='_blank' className='blog-text'>
+                <h4>A List of Useful npm Packages for React Developers</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  Top Useful npm packages for React developers
                 </p>
-              </div>
+              </a>
             </div>
             <div className='blog'>
-              {/* <img src="img/blog3.jpg" alt=""> */}
-              <div className='blog-text'>
+              <img src="/blog/debug.png" alt="" />
+              {/* <Image src="/blog/cssfilter.jpg" layout="fill" alt="" /> */}
+              <a href="https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db" className='blog-text' target="_blank">
                 <h4>Debbuging made easy with Web Inspector</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  Ditch console.log debugging once and for all! Learn how to use breakpoints to debug code within the Chrome Developer Tools
                 </p>
-              </div>
+              </a>
             </div>
             <div className='blog'>
-              {/* <img src="img/port1.jpg" alt=""> */}
-              <div className='blog-text'>
-                <h4>Get started with Web Design and UI Design</h4>
+              <img src="blog/css.png" alt="" />
+              <a href="https://enterakash.hashnode.dev/top-10-free-css-generators-tool" target='_blank' className='blog-text'>
+                <h4>Top 10 Free CSS Generators Tool</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  Top 10 Free CSS Generators Tool. Time-saving shortcuts to improve your workflow.
                 </p>
-              </div>
+              </a>
             </div>
             <div className='blog'>
-              {/* <img src="img/port3.jpg" alt=""> */}
-              <div className='blog-text'>
-                <h4>This is what you need to know about Web Design</h4>
+              <img src="blog/website.jpg" alt="" />
+              <a href="https://gist.github.com/bradtraversy/61171a9b81586f5bc4c0ca1e2beb59ab" className='blog-text'>
+                <h4>Top web resources that makes your life easier</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                  Websites You Should Know To Make Your Life Easier
                 </p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

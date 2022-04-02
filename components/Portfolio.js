@@ -3,7 +3,7 @@ import Image from "next/image";
 const Portfolio = () => {
   return (
     <>
-      <section className='section sec3' id='portfolio'>
+      <section className='section sec3 active' id='portfolio'>
         <div className='main-title'>
           <h2>
             My <span>Portfolio</span>
