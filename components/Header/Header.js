@@ -1,6 +1,8 @@
 import React from "react";
-
+import Image from 'next/image'
+import style from '../../styles/custom.module.css'
 const Header = () => {
+
   return (
     <>
       <header className='section sec1 header active' id='home'>
@@ -8,15 +10,17 @@ const Header = () => {
           <div className='left-header'>
             <div className='h-shape'></div>
             <div className='image'>
-              <img src="/me2.png" alt="" />
+              <div style={{ width: '100%', height: '99%', position: 'relative' }}>
+                <Image src="/me2.png" className={style.photo} layout='fill' alt="" />
+              </div>
             </div>
           </div>
           <div className='right-header'>
             <h1 className='name'>
-              Hi, I'm <span>Akash.</span><br />A Web Developer.
+              Hi, I&apos; m <span>Akash.</span><br />A Web Developer.
             </h1>
             <p>
-              I'm a Web Developer, I love to create beautiful and functional
+              I&apos; m a Web Developer, I love to create beautiful and functional
               websites.
             </p>
             <div className='btn-con'>

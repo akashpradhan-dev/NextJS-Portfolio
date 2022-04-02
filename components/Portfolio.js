@@ -11,7 +11,7 @@ const Portfolio = () => {
           </h2>
         </div>
         <p className='port-text'>
-          Here is some of my work that I've done in various programming
+          Here is some of my work that I&apos; ve done in various programming
           languages.
         </p>
         <div className='portfolios'>
@@ -23,7 +23,7 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://github.com/Akashpradhan-Git/My-NodeJS_blogs' target="_blank" className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/My-NodeJS_blogs' target="_blank" className='icon' rel="noopener noreferrer">
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -42,7 +42,7 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://github.com/Akashpradhan-Git/News-Feed-App' target='_blank' className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/News-Feed-App' target='_blank' className='icon' rel="noopener noreferrer">
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -61,7 +61,7 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://github.com/Akashpradhan-Git/urlShortener' target="_blank" className='icon'>
+                <a href='https://github.com/Akashpradhan-Git/urlShortener' target="_blank" className='icon' rel="noopener noreferrer">
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>
@@ -80,9 +80,9 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://react-landingpage.netlify.app/'
+                <a href='https://react-landingpage.netlify.app/' rel="noopener noreferrer"
                   target='_blank' className='icon'>
-                  <i class="fas fa-globe-europe"></i>
+                  <i className="fas fa-globe-europe"></i>
                 </a>
                 <a href='#' className='icon'>
                   <i className='fab fa-behance'></i>
@@ -100,14 +100,14 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://webstudent.netlify.app/' target='_blank' className='icon'>
-                  <i class="fas fa-globe-europe"></i>
+                <a href='https://webstudent.netlify.app/' target='_blank' className='icon' rel="noopener noreferrer">
+                  <i className="fas fa-globe-europe"></i>
                 </a>
                 <a href='#' className='icon'>
                   <i className='fab fa-behance'></i>
                 </a>
                 <a href='#' className='icon'>
-                  <i class="fas fa-globe-europe"></i>
+                  <i className="fas fa-globe-europe"></i>
                 </a>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Portfolio = () => {
             <div className='hover-items'>
               <h3>Project Source</h3>
               <div className='icons'>
-                <a href='https://trackmybus.netlify.app/' target='_blank' className='icon'>
+                <a href='https://trackmybus.netlify.app/' target='_blank' className='icon' rel="noopener noreferrer">
                   <i className='fab fa-github'></i>
                 </a>
                 <a href='#' className='icon'>

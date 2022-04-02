@@ -41,16 +41,16 @@ const Contact = () => {
 
               <div className='contact-icons'>
                 <div className='contact-icon'>
-                  <a href='https://www.linkedin.com/in/akash-pradhan/' target='_blank'>
+                  <a href='https://www.linkedin.com/in/akash-pradhan/' target='_blank' rel="noopener noreferrer">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href='https://twitter.com/EnterAkash' target='_blank'>
+                  <a href='https://twitter.com/EnterAkash' target='_blank' rel="noopener noreferrer">
                     <i className='fab fa-twitter'></i>
                   </a>
-                  <a href='https://github.com/Akashpradhan-Git' target='_blank'>
+                  <a href='https://github.com/Akashpradhan-Git' target='_blank' rel="noopener noreferrer">
                     <i className='fab fa-github'></i>
                   </a>
-                  <a href='https://www.youtube.com/channel/UCEA2iXeH-XnjyVsLcUpYkdw' target='_blank'>
+                  <a href='https://www.youtube.com/channel/UCEA2iXeH-XnjyVsLcUpYkdw' target='_blank' rel="noopener noreferrer">
                     <i className='fab fa-youtube'></i>
                   </a>
                 </div>

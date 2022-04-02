@@ -50,7 +50,7 @@ const Blogs = () => {
             <div className='blog'>
               {/* <img src="/blog/debug.png" alt="" /> */}
               <Image src="/blog/debug.png" width={500} height={480} alt="" />
-              <a href="https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db" className='blog-text' target="_blank">
+              <a href="https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db" className='blog-text' target="_blank" rel="noopener noreferrer">
                 <h4>Debbuging made easy with Web Inspector</h4>
                 <p>
                   Ditch console.log debugging once and for all! Learn how to use breakpoints to debug code within the Chrome Developer Tools
