@@ -20,7 +20,7 @@ const Blogs = () => {
 
 
               <Image src="/blog/images.jpg" width={500} height={480} className="image" alt="" />
-              <a href="https://enterakash.hashnode.dev/10-best-free-css-animation-libraries-for-the-web" className='blog-text' target='_blank'>
+              <a href="https://enterakash.hashnode.dev/10-best-free-css-animation-libraries-for-the-web" className='blog-text' target='_blank' rel="noreferrer">
                 <h4>10 Best Free CSS Animation Libraries For The Web</h4>
                 <p>
                   There are an awful lot of libraries that want to help you animate things on the web and make your website more attractive.
@@ -30,7 +30,7 @@ const Blogs = () => {
             <div className='blog'>
               {/* <img src="/blog/vsCode.jpg" alt="" /> */}
               <Image src="/blog/vsCode.jpg" width={500} height={480} alt="" />
-              <a href="https://enterakash.hashnode.dev/top-vs-code-extensions-that-i-use-as-full-stack-developer" target='_blank' className='blog-text'>
+              <a href="https://enterakash.hashnode.dev/top-vs-code-extensions-that-i-use-as-full-stack-developer" target='_blank' rel="noreferrer" className='blog-text'>
                 <h4>Top VS Code extensions</h4>
                 <p>
                   Top VS Code extensions that I use as full-stack developer.
@@ -40,7 +40,7 @@ const Blogs = () => {
             <div className='blog'>
 
               <Image src="/blog/npm.jpg" width={500} height={480} alt="" />
-              <a href="https://manindu.dev/list-of-useful-npm-packages-for-react-developers/" target='_blank' className='blog-text'>
+              <a href="https://manindu.dev/list-of-useful-npm-packages-for-react-developers/" target='_blank' rel="noreferrer" className='blog-text'>
                 <h4>A List of Useful npm Packages for React Developers</h4>
                 <p>
                   Top Useful npm packages for React developers
@@ -60,7 +60,7 @@ const Blogs = () => {
             <div className='blog'>
 
               <Image src="/blog/css.png" width={500} height={480} alt="" />
-              <a href="https://enterakash.hashnode.dev/top-10-free-css-generators-tool" target='_blank' className='blog-text'>
+              <a href="https://enterakash.hashnode.dev/top-10-free-css-generators-tool" target='_blank' rel="noreferrer" className='blog-text'>
                 <h4>Top 10 Free CSS Generators Tool</h4>
                 <p>
                   Top 10 Free CSS Generators Tool. Time-saving shortcuts to improve your workflow.
