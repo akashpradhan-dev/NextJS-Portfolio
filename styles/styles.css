@@ -6,6 +6,20 @@
   list-style: none;
 }
 
+::-webkit-scrollbar-track {
+    border: 1px solid #454e56;
+    background-color: #454e56;
+}
+
+::-webkit-scrollbar {
+      width: 10px;
+      background-color: #454e56;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #27ae60;
+}
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
@@ -1260,7 +1274,7 @@ section {
   }
   .left-header .image {
     width: 90% !important;
-    margin: 0 auto !important;
+    margin: 20px auto !important;
   }
   .right-header {
     -ms-grid-row: 1;

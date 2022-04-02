@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
 const Blogs = () => {
-
-
-
   return (
     <>
       <section className='section sec4 active' id='blogs'>
