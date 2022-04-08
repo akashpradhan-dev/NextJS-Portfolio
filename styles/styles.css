@@ -278,7 +278,7 @@ section {
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 90%;
-  width: 68%;
+  width: 62%;
   margin-left: 4rem;
   background-color: var(--color-black);
   -webkit-transition: all 0.4s ease-in-out;
@@ -294,6 +294,7 @@ section {
   transition: all 0.4s ease-in-out;
   /* -webkit-filter: grayscale(0%);
   filter: grayscale(0%); */
+  border-radius: 10px;
   -webkit-filter: saturate(0.5);
   filter: saturate(0.5);
 }

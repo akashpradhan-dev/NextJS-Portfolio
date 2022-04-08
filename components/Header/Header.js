@@ -11,7 +11,7 @@ const Header = () => {
             <div className={`${'image'} ${style.image_small}`}>
               {/* <img src="/me2.png" alt="" /> */}
               <div style={{ width: '100%', height: '99%', position: 'relative' }}>
-                <Image src="/bgg2.png" className={style.photo} layout='fill' alt="" />
+                <Image src="/itsme.jpg" className={style.photo} layout='fill' alt="" />
               </div>
             </div>
           </div>

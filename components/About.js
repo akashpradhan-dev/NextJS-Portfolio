@@ -21,7 +21,9 @@ const About = () => {
             </p>
             <div className='btn-con'>
               <a href='#' className='main-btn'>
-                <span className='btn-text'>Download CV</span>
+                <span className='btn-text'>
+                  <a href='/cv.pdf' download={"Akash's Resume"} > Download CV</a>
+                </span>
                 <span className='btn-icon'>
                   <i className='fas fa-download'></i>
                 </span>
