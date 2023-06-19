@@ -16,7 +16,7 @@ const About = () => {
 
       setExp(`${year}Y.${month}m`);
     };
-    totalExp();
+    totalExp("2021-07-27");
   }, []);
 
   return (
