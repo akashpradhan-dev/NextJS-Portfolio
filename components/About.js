@@ -1,20 +1,19 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 const About = () => {
   const [exp, setExp] = useState("");
   useEffect(() => {
     const totalExp = (date) => {
-      const d1 = new Date();
-      const d2 = new Date(date);
+      const dt1 = new Date();
+      const dt2 = new Date(date);
       var diffYear = (dt2.getTime() - dt1.getTime()) / 1000;
       diffYear /= 60 * 60 * 24;
       const year = Math.abs(Math.round(diffYear / 365.25));
 
       var diffMonth = (dt2.getTime() - dt1.getTime()) / 1000;
       diffMonth /= 60 * 60 * 24 * 7 * 4;
-      const month = Math.abs(Math.round(diff));
-
-      setExp(`${year}Y.${month}m`);
+      const month = Math.abs(Math.round(diffMonth));
+      setExp(`${year}.${month}`);
     };
     totalExp("2021-07-27");
   }, []);
@@ -71,7 +70,7 @@ const About = () => {
             </div>
             <div className='about-item'>
               <div className='abt-text'>
-                <p className='large-text'>{exp}</p>
+                <p className='large-text'>{exp}+</p>
                 <p className='small-text'>
                   Years of <br /> experience
                 </p>
@@ -99,38 +98,39 @@ const About = () => {
           <h4 className='stat-title'>My Skills</h4>
           <div className='progress-bars'>
             <div className='progress-bar'>
-              <p className='prog-title'>html5</p>
+              <p className='prog-title'>NextJS</p>
               <div className='progress-con'>
-                <p className='prog-text'>80%</p>
+                <p className='prog-text'>90%</p>
                 <div className='progress'>
-                  <span className='html'></span>
-                </div>
-              </div>
-            </div>
-            <div className='progress-bar'>
-              <p className='prog-title'>css3</p>
-              <div className='progress-con'>
-                <p className='prog-text'>95%</p>
-                <div className='progress'>
-                  <span className='css'></span>
-                </div>
-              </div>
-            </div>
-            <div className='progress-bar'>
-              <p className='prog-title'>javascript</p>
-              <div className='progress-con'>
-                <p className='prog-text'>75%</p>
-                <div className='progress'>
-                  <span className='js'></span>
+                  <span className='react'></span>
                 </div>
               </div>
             </div>
             <div className='progress-bar'>
               <p className='prog-title'>ReactJS</p>
               <div className='progress-con'>
-                <p className='prog-text'>75%</p>
+                <p className='prog-text'>85%</p>
                 <div className='progress'>
                   <span className='react'></span>
+                </div>
+              </div>
+            </div>
+
+            <div className='progress-bar'>
+              <p className='prog-title'>javascript</p>
+              <div className='progress-con'>
+                <p className='prog-text'>80%</p>
+                <div className='progress'>
+                  <span className='js'></span>
+                </div>
+              </div>
+            </div>
+            <div className='progress-bar'>
+              <p className='prog-title'>Express</p>
+              <div className='progress-con'>
+                <p className='prog-text'>80%</p>
+                <div className='progress'>
+                  <span className='express'></span>
                 </div>
               </div>
             </div>
@@ -140,15 +140,6 @@ const About = () => {
                 <p className='prog-text'>70%</p>
                 <div className='progress'>
                   <span className='node'></span>
-                </div>
-              </div>
-            </div>
-            <div className='progress-bar'>
-              <p className='prog-title'>Express</p>
-              <div className='progress-con'>
-                <p className='prog-text'>70%</p>
-                <div className='progress'>
-                  <span className='python'></span>
                 </div>
               </div>
             </div>
@@ -166,9 +157,9 @@ const About = () => {
               System Engineer<span> - Inffosys LTD</span>
             </h5>
             <p>
-              Developed and maintained code for diffent clients. ReactJS, NextJS
-              and Angular with Isocnic are key technology i am currently working
-              on
+              I have developed and maintained code for various clients, focusing
+              on key technologies such as ReactJS, NextJS, and Angular with
+              Ionic.
             </p>
           </div>
           <div className='timeline-item'>
